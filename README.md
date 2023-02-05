@@ -23,3 +23,5 @@ document.querySelector ('.area--header')
 <div class = 'area-header'> teste </div>
 
 Para selecionar todos os elementos do mesmo tipo de uma vez, utilizamos o document.querySelectorAll ('h1')
+
+Teste
