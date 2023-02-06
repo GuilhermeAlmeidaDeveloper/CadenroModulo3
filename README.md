@@ -25,3 +25,40 @@ document.querySelector ('.area--header')
 Para selecionar todos os elementos do mesmo tipo de uma vez, utilizamos o document.querySelectorAll ('h1')
 
 Teste
+
+
+# Eventos em JS.
+
+São maneiras do JS observar a interação do usuário com elementos da DOM.
+
+Quais os eventos mais utilizados?
+
+-Click
+-Chance
+-Mouseover
+-KeyPress
+-KeyDown
+-KeyUp
+-Focus
+
+Priorizar escrever o evento dentro do arquivo JS.
+
+No HTML:
+
+<div class= 'box'> 
+</div>
+
+No JS:
+
+const box = document.querySelector ('.box')
+
+function observerMouseover (){
+    console.log ('mouse foi passado por cima')
+}
+
+box.addEventListener ('mouseover', observerMouseOver).
+
+EventListener  = mouseover 
+EventHandler = observerMouseOver
+
+Podemos remover o evento através do removeEventListener
